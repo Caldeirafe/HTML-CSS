@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@font-face {
+    font-family: panton;
+    src: url(fonte/PantonRustHeavy-GrSh.otf) format(opentype), url(fonte/PantonRustScrSmBold-Gr.ttf) format(truetype);
+}
+
+body { background-color: #ffffff;
+    background-image: linear-gradient(to right, #476454, #AFF5CD, #AFF5CD, #476454);
+    margin: 0.1px;
+}
+
+main {
+    background-color: #DBD31F;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 15px black;
+}
+div {
+    background-color: #12A1DB;
+    border-radius: 10px;
+    
+}
+
+p { font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 30px;
+    font-style: normal;
+}
+
+h1 {
+   font-family: panton;
+    text-align: center;
+    font-size: 50px;
+}
+.imagelogo {
+    border-radius: 100px;
+    width: 100px;
+    margin-left: 470px;
+}
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    background-color: #12A1DB;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+
+}

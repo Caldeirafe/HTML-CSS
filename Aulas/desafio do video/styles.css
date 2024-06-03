@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+button { background-color: red;
+    border-radius: 40%;
+    scale: 1.3;
+
+}

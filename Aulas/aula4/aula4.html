@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazuca</title>
+    <link rel="shortcut icon" href="/aula4/Brasil_26450.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Imagem Flexivel</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="Imagem flexível">
+    </picture>
+    <hr>
+        <br>
+    <audio preload="metadata" controls autoplay>
+        <source src="/aula4/seu-madruga-nossa-lento-47.mp3" type="">
+    </audio>
+    <a href="/aula4/seu-madruga-nossa-lento-47.mp3" download="madruga.mp3"><button>Baixar</button></a>
+    <br>
+    <hr>
+    <h1>Videoo</h1>
+    <video width="600" poster="" controls>
+        <source src="/aula4/neymar.mp4" type="video/mp4">
+    </video>
+    <br>
+    <hr>
+    <h1>Video no youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/0v_J-zELSR0?si=wpfq-neLVHetPFbH"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+
+</html>
