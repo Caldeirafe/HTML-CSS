@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 @font-face {
 font-family: athos;
-src: url(/Aula6/fonte/Arthos\ demo.ttf) format(truetype);
+src: url(/Aulas/Aula6/fonte/Arthos\ demo.ttf) format(truetype);
 }
 *{padding: 0px;
 margin: 0px;
 }
 header {padding: 0.1px;
-background-image: linear-gradient(black, black, black, grey);
+background-image: linear-gradient(black, black, rgba(0, 0, 0, 0));
 }
 nav {margin-left: 5px;
 text-align: center;
@@ -19,11 +19,14 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 color: white;
 }
-.body1 {background-image: linear-gradient(#ffd86c, #ffd970,black, black, #66ff66, #66ff66);
+body {
+background-position: right 80%;
+background-size: cover;
+height: 100vh;
+background-attachment: fixed;
+background-image: url(424903_trava_pole_futbolnyj-myach_5996x4019_www.Gde-Fon.com.jpg)  
 }
-.body2 {
-background-color: #ffd86c;
-}
+
 main {
 background-color: #ffffff;
 max-width: 800px;
@@ -56,6 +59,9 @@ text-align: center;
 font-size: 100px;
 margin-bottom: -10px;
 padding: 10px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 p { font-family: "Caveat", cursive;
 font-size: 30px;
@@ -120,8 +126,23 @@ height: 150px;
 border-radius: 5px;
 }
 .rodape{
-    color: aqua;
+color: aqua;
 }
 .radio{
-    padding: 10px;
+padding: 10px;
+}
+.lista{ 
+
+}
+.paralex{
+background-position: center;
+background-attachment: fixed;
+background-image: url(logo20.jpg);
+}
+.paragafe{
+    border-radius: 5px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.568);
+    color: white
+    
 }
