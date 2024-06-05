@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@font-face {
+    font-family: boge;
+    src: url(Font/Boge.ttf) format(truetype);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*-----------------------------------------cabeça do Site-----------------------------------------------*/
+header {
+    padding: 0.1px;
+    background-image: linear-gradient(black, black, rgb(0, 0, 0));
+}
+
+.Titulo {
+    text-decoration: none;
+    color: #ffb81c;
+    font-family: boge;
+    text-align: center;     
+    font-size: 100px;
+    margin-bottom: -10px;
+    padding: 10px;
+    
+}
+
+.slogan{ font-family: cursive;
+    color: #ffb81c;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 30px;
+    }
+
+nav {
+    margin-left: 5px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: blueviolet;
+}
+
+.itens {margin-left: 12px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+    font-size: 30px;
+}
+/*---------------------------------------------------Home-------------------------------------------------------------------------------*/
+body {
+    background-position: right 80%;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(img/wallpaper.jpg)  
+}
+
+.home{
+
+    max-width: 100%;
+    min-width: 320px;
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------Tabela----------------------------------------------------------------------------*/
+section{
+    padding-left: 5px;
+    margin:auto
+}
+
+div{
+    display: inline-block;
+    width: 33%;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+td:hover{
+    background-color: rgba(4, 67, 240, 0.267);
+}
+
+caption{
+    border-radius: 2px;
+    background-color: white;
+    font-size: 1.2em;
+    font-variant: small-caps;
+    text-align: left bottom;
+}
+
+.play,tfoot{
+    font-size: 1.2em;
+    font-variant: small-caps;
+    background-color: #00aaff;
+}
+
+.xbox,tfoot{
+font-size: 1.2em;
+font-variant: small-caps;
+background-color: #00dd00;
+}
+
+.nintendo,tfoot{
+    font-size: 1.2em;
+    font-variant: small-caps;
+    background-color: #dd2100;
+}
+
+thead > th {
+    position: sticky;
+    top:0;
+    background-color: #00dd00;
+}
+
+th,td{
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: lightgray;
+}
+/*--------------------------------------------------------cadastro---------------------------------------------------------------------*/
+.cadastro {
+    background-color: #ffffff;
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    }
