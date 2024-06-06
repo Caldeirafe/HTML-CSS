@@ -8,7 +8,7 @@
     padding: 0px;
     margin: 0px;
 }
-/*-----------------------------------------cabeça do Site-----------------------------------------------*/
+/*----------------------------------------------------------------------cabeça do Site-----------------------------------------------*/
 header {
     padding: 0.1px;
     background-image: linear-gradient(black, black, rgb(0, 0, 0));
@@ -21,16 +21,15 @@ header {
     text-align: center;     
     font-size: 100px;
     margin-bottom: -10px;
-    padding: 10px;
-    
 }
 
-.slogan{ font-family: cursive;
+.slogan{ font-family: boge;
     color: #ffb81c;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -30px;
     font-size: 30px;
-    }
+    margin-bottom: 30px;
+}
 
 nav {
     margin-left: 5px;
@@ -59,11 +58,39 @@ body {
 }
 
 .home{
-
     max-width: 100%;
     min-width: 320px;
     margin-top: 20px;
 }
+/*--------------------------------------------------------------------Consoles------------------------------------------------------*/
+.console{
+    display: inline-block;
+    background-color: white;
+    max-width: 900px;
+    min-width: 320px;
+    margin-left: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.img{
+    border: black solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------Tabela----------------------------------------------------------------------------*/
 section{
@@ -71,7 +98,7 @@ section{
     margin:auto
 }
 
-div{
+.tabeladiv{
     display: inline-block;
     width: 33%;
 }
@@ -142,4 +169,57 @@ tbody>tr:nth-child(even) {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-    }
+}
+
+.input {
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: #c0c0c0;
+}
+.inputdate{
+    background-color: #c0c0c0;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+}
+select{
+    border-radius: 5px;
+    background-color: #c0c0c0;
+    padding: 5px;
+}
+textarea {
+    width: 100%;
+    background-color: #c0c0c0;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.radio{
+    padding: 10px;
+}
+
+.bottons {
+    margin-left: 700px;
+    display: inline-block;
+    columns: 2;
+}
+
+.buttonY{
+    border-radius: 5px;
+    background-color:#c0c0c0;
+    padding: 5px;
+}
+
+.buttonC{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #c0c0c0;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
