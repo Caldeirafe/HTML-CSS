@@ -28,25 +28,42 @@ header {
     text-align: center;
     margin-top: -30px;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 nav {
     margin-left: 5px;
     text-align: center;
+    padding: 20px;
+}
+
+.carrinho{
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    margin-left: 20px;
+    padding: 5px;
+    margin-bottom: -15px;
+}
+
+.carrinho:hover{
+    background-color: blueviolet;
 }
 
 nav a:hover {
     color: blueviolet;
 }
 
-.itens {margin-left: 12px;
+.itens {
+    margin-bottom: 10px;
+    margin-left: 12px;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
     font-variant: small-caps;
     font-size: 30px;
+    padding: 10px;
+    
 }
 /*---------------------------------------------------Home-------------------------------------------------------------------------------*/
 body {
@@ -57,10 +74,51 @@ body {
     background-image: url(img/wallpaper.jpg)  
 }
 
-.home{
+.home {
     max-width: 100%;
     min-width: 320px;
     margin-top: 20px;
+}
+
+.parallax-img-xbox {
+    background-image: url(img/halo.jpg);
+    background-size: cover;
+    width: 60%;
+    background-position: center c;
+    background-attachment: fixed;
+    height: 600px;
+    margin: auto;
+}
+
+.parallax-img-nintendo {
+    background-image: url(img/mario.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+    width: 60%;
+    margin: auto;
+}
+
+.parallax-img-sony {
+    background-image: url(img/Crash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+    margin: auto;
+    width: 60%;
+}
+
+.parallax-text {
+    margin-right: auto;
+    width: 300px;
+    height: 580px;
+    text-align: justify;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 10px;
+    margin: 0px;
 }
 /*--------------------------------------------------------------------Consoles------------------------------------------------------*/
 .console{
@@ -93,11 +151,10 @@ body {
 
 
 /*--------------------------------------------------Tabela----------------------------------------------------------------------------*/
-section{
-    padding-left: 5px;
-    margin:auto
-}
 
+.tabelas{
+    margin-left: 5px;
+}
 .tabeladiv{
     display: inline-block;
     width: 33%;
