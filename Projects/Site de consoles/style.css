@@ -80,6 +80,14 @@ body {
     margin-top: 20px;
 }
 
+article{
+    
+}
+
+p {
+    font-size: 25px;
+}
+
 .parallax-img-xbox {
     background-image: url(img/halo.jpg);
     background-size: cover;
@@ -103,7 +111,7 @@ body {
 .parallax-img-sony {
     background-image: url(img/Crash.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-attachment: fixed;
     height: 600px;
     margin: auto;
@@ -116,39 +124,40 @@ body {
     height: 580px;
     text-align: justify;
     color: white;
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(0, 0, 0, 0.575);
     padding: 10px;
     margin: 0px;
 }
 /*--------------------------------------------------------------------Consoles------------------------------------------------------*/
 .console{
-    display: inline-block;
-    background-color: white;
+    background-color: #ffffff;
     max-width: 900px;
     min-width: 320px;
-    margin-left: 300px;
+    margin: auto;
     margin-top: 10px;
+    margin-bottom: 0px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
 }
+
 .img{
-    border: black solid 2px;
+    background-color: black;
+
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*------------------------------------------------------------------PC Gamer---------------------------------------------------------------------------------*/
+.pcgamer{
+    background-color: #ffffff;
+    max-width: 900px;
+    min-width: 320px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
 
 /*--------------------------------------------------Tabela----------------------------------------------------------------------------*/
 
