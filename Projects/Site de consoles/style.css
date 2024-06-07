@@ -65,6 +65,24 @@ nav a:hover {
     padding: 10px;
     
 }
+/*--------------------------------------------------rodape--------------------------------------------------*/
+footer{
+    text-align: center;
+    background-color: #000000;
+}
+
+.foter{
+    color: #ffb81c;
+    font-family: boge;
+}
+
+.felipe{
+    text-decoration: none;
+    color: #201cff;
+}
+.felipe:hover{
+    color: #ffb81c;
+}
 /*---------------------------------------------------Home-------------------------------------------------------------------------------*/
 body {
     background-position: right 80%;
@@ -146,7 +164,7 @@ p {
 
 }
 
-/*------------------------------------------------------------------PC Gamer---------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------PC Gamer--------------------------------------------------------------*/
 .pcgamer{
     background-color: #ffffff;
     max-width: 900px;
@@ -161,14 +179,6 @@ p {
 
 /*--------------------------------------------------Tabela----------------------------------------------------------------------------*/
 
-.tabelas{
-    margin-left: 5px;
-}
-.tabeladiv{
-    display: inline-block;
-    width: 33%;
-}
-
 table{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
@@ -176,6 +186,36 @@ table{
     border-collapse: collapse;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.705);
+}
+
+section{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.mainframe{
+    text-align: center;
+    margin: auto;
+}
+
+iframe{
+    margin: auto;
+    width: 600px;
+    height: 450px;
+    display: block;
+}
+
+.linkframe{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: boge;
+    padding: 10px;
+
+}
+
+.linkframe:hover{
+    color: rgb(132, 0, 255);
 }
 
 td:hover{
