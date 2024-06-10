@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="iname">Nome:</label>
+                    <input type="text" id="iname" name="name" placeholder="Nome completo" maxlength="30"
+                        autocomplete="name" required>
+                </div>
+                <div>
+                    <label for="iidade">Idade:</label>
+                    <input type="number" id="iidade" name="iidade" min="18" max="81" placeholder="18 a 81" required>
+                </div>
+                <div>
+                    <label for="iemail">Email:</label>
+                    <input type="email" id="iemail" name="email" autocomplete="email" placeholder="xxxxxxx@xxxxx.xxx"
+                        required>
+                </div>
+                <div>
+                    <label for="itelefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="itelefone" autocomplete="tel" placeholder="(xx)xxxxx-xxxx">
+                </div>
+                <div>
+                    <label for="smasc">Masculino</label>
+                    <input type="radio" name="sexo" id="smasc" checked>
+
+                    <label for="sfem">Feminino</label>
+                    <input type="radio" name="sexo" id="sfem">
+                </div>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" required>
+            </fieldset>
+            <fieldset>
+                <legend>Data e Horario</legend>
+                <div>
+                    <label for="imes">Mês de Inicio:</label>
+                    <input type="month" name="mes" id="imes" value="2024-06" min="2024-06">
+                </div>
+                <div>
+                    <label for="imes">Mês de Conclusão:</label>
+                    <input type="month" name="mes" id="imes" value="2024-06" min="2024-06">
+                </div>
+                <div>
+                    <label for="ihora">Horário de Aula:</label>
+                    <input type="time" name="hora" id="ihora" value="08:00">
+                </div>
+                <div>
+                    <label for="idia">Dia de Inicio:</label>
+                    <input type="date" name="dia" id="idia">
+                </div>
+                <div>
+                    <label for="idia">Dia de Conclusão:</label>
+                    <input type="date" name="dia" id="idia">
+                </div>
+                <div>
+                    <label for="icor">Cor Favorita:</label>
+                    <input type="color" name="cor" id="icor" value="000000">
+                </div>
+                <div>
+                    <label for="inivel">Satisfação:</label>
+                    <input type="range" name="nivel" id="inivel" min="0" max="10" value="5"
+                        oninput="valor.innerHTML = Number(inivel.value)">
+                    <output id="valor">5</output>
+                </div>
+                <div>
+                    <input type="file" name="arquivos" id="iarquivos">
+                </div>
+                <div>
+                    <label for="iestado">Estado</label>
+                    <select name="estado" id="iestado">
+                        <option value="selected">--- Escolha ---</option>
+                        <optgroup label="Região Sudeste">
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio De Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="Es">Espirito Santos</option>
+                        </optgroup>
+                        <optgroup label="Região Sul">
+                            <option value="PR">Parana</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="iprof">Profissão:</label>
+                    <input type="text" name="prof" id="iprof" list="1stprof">
+                    <datalist id="1stprof">
+                        <option value="ADM">Administrador</option>
+                        <option value="DEV">Desenvolvedor</option>
+                        <option value="PROF">Professor</option>
+                    </datalist>
+                    <div>
+                        <label for="imsg">Mensagem:</label>
+                        <textarea name="msg" id="imsg" maxlength="100" placeholder="Max 100 Caracteres"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Soma de Números</legend>
+                <div>
+                    <label for="n1">Numero 1:</label>
+                    <input type="number" id="n1" min="0" max="50" required
+                        oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+
+                    <label for="n2">Numero 2:</label>
+                    <input type="number" id="n2" min="0" max="50" required
+                        oninput="soma.innerHTML = Number(n1.value) + Number(n2.value)">
+
+                    <label for="soma">Resultado:</label>
+                    <output id="soma">0</output>
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
