@@ -52,7 +52,6 @@ img:hover {
 iframe{
     width: 100%;
     height: 100%;
-   /* background-image: url(../Imagens/imagens/tela-home.jpg);*/
     background-size: cover;
 }
 
