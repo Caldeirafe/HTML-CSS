@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+header{
+    background-color: hotpink;
+
+
+    padding: 20px;
+}
+
+h1{
+    display: inline-block;
+    float: left;
+    margin-right: 400px;
+}
+
+ul {
+    display: inline-block;
+    padding: 5px;
+    
+
+}
+
+li{
+    padding: 10px;
+    display: inline-block;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
