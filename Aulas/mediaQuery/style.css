@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+*/{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+p{
+    color: white;
+    font-size: 40px;
+    text-align: justify;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 55px;
+    background-color: rgb(255, 255, 255);
+}
+
+.print{
+    width: 100px;
+}
+
+/*Celular*/
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    
+    body{
+        background-image: url(imagens/back-phone.jpg);
+    }
+
+    .tablet{
+        display: none;
+    }
+    
+    .print{
+        display: none;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .tv{
+        display: none;
+    }
+}
+
+/*tablet*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    body{
+        background-image: url(imagens/back-tablet.jpg);
+    }
+
+    .phone{
+        display: none;
+    }
+    
+    .print{
+        display: none;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .tv{
+        display: none;
+    }
+}
+
+/*print*/
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    
+    body{
+        background-image: url(imagens/back-print.jpg);
+    }
+
+    .phone{
+        display: none;
+    }
+    
+    .desktop{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .tv{
+        display: none;
+    }
+}
+
+/*pc*/
+
+@media screen and (min-width:1200px) and (max-width:1500px) {
+    
+    body{
+        background-image: url(imagens/back-pc.jpg);
+    }
+
+    .phone{
+        display: none;
+    }
+    
+    .tv{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .print{
+        display: none;
+    }
+}
+
+/*tv*/
+
+@media screen and (min-width:1500px) and (max-width:1980px) {
+    
+    body{
+        background-image: url(imagens/back-tv.jpg);
+    }
+
+    .phone{
+        display: none;
+    }
+    
+    .print{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .desktop{
+        display: none;
+    }
+}
+
+@media print{
+    main::after {
+        content: "Essa Impressão foi feita atraves de mim";
+        text-decoration: overline;
+    }
+    .phone{
+        display: none;
+    }
+    
+    .tv{
+        display: none;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .desktop{
+        display: none;
+    }
+}
