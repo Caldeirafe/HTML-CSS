@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    
+}
+
+body{
+    background-image: url(wal1.png);
+}
+
+header{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+main {
+    margin: auto;
+    width: 60%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    font-size: 30px;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px red;
+}
+
+a{
+    text-decoration: none;
+}
