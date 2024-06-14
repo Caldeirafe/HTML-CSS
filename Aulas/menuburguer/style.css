@@ -7,34 +7,65 @@
 }
 
 header{
-    background-color: hotpink;
-
-
+    background-color: rgb(54, 54, 54);
     padding: 20px;
+    text-align: center;
 }
 
 h1{
-    display: inline-block;
-    float: left;
-    margin-right: 400px;
+    text-align: center;
+    color: yellowgreen;
+    text-shadow: 2px 2px 2px black;
 }
 
 ul {
-    display: inline-block;
-    padding: 5px;
-    
 
+    padding: 5px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
 }
 
 li{
-    padding: 10px;
-    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    border: black solid;
+    background-color: yellowgreen;
+    text-shadow: 2px 2px 2px black;
 }
 
 a{
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
     color: black;
+}
+
+span{
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+menu{
+    display: none;
+}
+
+#burguer{
+    cursor:pointer
+}
+
+@media screen and (min-width:768px){
+    span#burguer{
+        display: none;
+    }
+
+li {
+        display: inline-block;
+    }
 }
