@@ -1,26 +1,51 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: cursive;
+}
+
+body{
+    background-color:grey;
+    
 }
 
 .container2{
-    background-color: green;
-    border: solid red 1px;
+    background-color: rgba(255, 0, 0, 0.616);
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
-.itens2{ 
-    /*flex: auto;*/
-    border: red solid;
+.imglogo{
+    border-radius: 20%;
+    padding: 5px;
+    height: 70px;
+}
 
+.logo{ 
+    display: flex;
+    flex-grow: 1;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
 
+.carrinho{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloheader{
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
-    background-color: gray;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,11 +55,62 @@
 .itens{
     flex: auto;
     background-color: white;
-    border: 0.1px solid gray;
+
     text-align: center;
     padding: 10px;
     margin: 10px;
     height: 400px;
     /*width: 100px;*/
+}
 
+.ordem3{
+    background-color: rgb(103, 134, 192);
+}
+
+.ordem6{
+    background-color: rgb(177, 87, 177);
+}
+
+.ordem5{
+    background-color: rgb(230, 170, 59);
+}
+
+.ordem4{
+    background-color: palegreen;
+}
+
+.ordem7{
+    background-color: yellowgreen;
+}
+
+.ordem2{
+    background-color: tomato;
+}
+
+.ordem1{
+    background-color: rgb(92, 92, 160);
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+}
+
+nav{
+    display: flex;
+}
+.jogo{
+    text-align: center;
+    flex-grow: 3;
+
+}
+.link2{
+    text-align: center;
+    flex-grow: 5;
+}
+
+.link3{
+    text-align: center;
+    flex-grow: 3;
 }
