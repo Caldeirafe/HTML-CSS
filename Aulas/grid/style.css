@@ -2,13 +2,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: white;
+    font-family: cursive;
+}
+
+body{
+    background-image: url(ronald.jpg);
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px 200px 200px 200px 200px;
-
+    grid-template-rows: 150px 80px 400px 80px;
+    gap: 10px;
     grid-template-areas:
                         "header header header header header header header header header header header header" 
                         "nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav    nav"
@@ -17,27 +23,107 @@
 }
 
 .header{
-    /*grid-column: 1 / 13;*/
     grid-area: header;
-    background-color: blue;
+    justify-self: center;
+    align-self: center;
 }
 
 .nav{
     grid-area: nav;
-    background-color: red;
+
+    justify-self: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+a:hover{
+    color: violet;
+}
+
+li{
+    padding: 10px;
 }
 
 .main{
     grid-area: main;
-    background-color: green;
+
+    justify-self: center;
+    align-self: center;
+
+}
+
+img{
+    border-radius: 50px;
 }
 
 .asside{
     grid-area: asside;
-    background-color: yellow;
+    justify-self: center;
+    align-self: center;
 }
 
 .footer{
     grid-area: footer;
-    background-color: orange;
+    justify-self: center;
+    align-self: center;
+    z-index: -1;
+    border: red solid;
 }
+h2{
+    color:rgb(0, 0, 0)
+}
+
+.input-container {
+    position: relative;
+    margin: 50px auto;
+    width: 200px;
+  }
+  
+  .input-container input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 5px 0;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .input-container .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .input-container input[type="text"]:focus ~ .label,
+  .input-container input[type="text"]:valid ~ .label {
+    top: -20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .input-container .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+  }
+  
+  .input-container input[type="text"]:focus ~ .underline,
+  .input-container input[type="text"]:valid ~ .underline {
+    transform: scaleX(1);
+  }
+  
