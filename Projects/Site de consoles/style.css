@@ -175,6 +175,10 @@ p {
 
 /*--------------------------------------------------Tabela----------------------------------------------------------------------------*/
 
+.main-table{
+    margin-bottom: 8%;
+}
+
 table{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
@@ -200,6 +204,7 @@ iframe{
     width: 600px;
     height: 450px;
     display: block;
+
 }
 
 .linkframe{
@@ -272,11 +277,10 @@ tbody>tr:nth-child(even) {
 .cadastro {
     display: flex;
     justify-content: center;
-    max-width: 900px;
-    min-width: 320px;
     margin: auto;
-    padding: 20px;
-
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 4%;
 }
 
 .form {
@@ -287,39 +291,39 @@ tbody>tr:nth-child(even) {
     padding: 20px;
     width: 320px;
 
-  }
-  
-  .title {
+}
+
+.title {
     color: #eee;
     font-family: boge;
     font-size: 30px;
     font-weight: 600;
     margin-top: 30px;
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
     color: #eee;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 600;
     margin-top: 10px;
-  }
-  
-  .input-container {
+}
+
+.input-container {
     height: 50px;
     position: relative;
     width: 100%;
-  }
-  
-  .ic1 {
+}
+
+.ic1 {
     margin-top: 40px;
-  }
-  
-  .ic2 {
+}
+
+.ic2 {
     margin-top: 30px;
-  }
-  
-  .input {
+}
+
+.input {
     background-color: #303245;
     border-radius: 12px;
     border: 0;
@@ -330,9 +334,9 @@ tbody>tr:nth-child(even) {
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
-  }
-  
-  .cut {
+}
+
+.cut {
     background-color: #15172b;
     border-radius: 10px;
     height: 20px;
@@ -342,13 +346,13 @@ tbody>tr:nth-child(even) {
     transform: translateY(0);
     transition: transform 200ms;
     width: 76px;
-  }
-  
-  .cut-short {
+}
+
+.cut-short {
     width: 50px;
-  }
-  
-  .iLabel {
+}
+
+.iLabel {
     color: #65657b;
     font-family: sans-serif;
     left: 20px;
@@ -358,25 +362,25 @@ tbody>tr:nth-child(even) {
     transform-origin: 0 50%;
     transition: transform 200ms, color 200ms;
     top: 20px;
-  }
-  
-  .input:focus ~ .cut {
+}
+
+.input:focus ~ .cut {
     transform: translateY(8px);
-  }
-  
-  .input:focus ~ .iLabel {
+}
+
+.input:focus ~ .iLabel {
     transform: translateY(-30px) translateX(10px) scale(0.75);
-  }
-  
-  .input:not(:focus) ~ .iLabel {
+}
+
+.input:not(:focus) ~ .iLabel {
     color: #808097;
-  }
-  
-  .input:focus ~ .iLabel {
+}
+
+.input:focus ~ .iLabel {
     color: #dc2f55;
-  }
-  
-  .submit {
+}
+
+.submit {
     background-color: #ffb81c;
     border-radius: 12px;
     border: 0;
